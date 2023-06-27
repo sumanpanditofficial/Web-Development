@@ -1,0 +1,17 @@
+.row-container{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.first{
+    display: inline-block;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: left;
+    padding: 10px 20px;
+}
+

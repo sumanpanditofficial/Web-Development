@@ -1,0 +1,15 @@
+.pageDiv{
+
+    width: 1000px;
+    height: fit-content;
+    background-color: #f1f1f1;
+    margin: 60px auto 0 auto;
+    padding: 30px 50px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 10px 0;
+}

@@ -1,0 +1,40 @@
+<%- include('header'); -%>
+
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <h2>Welcome to Modern Blog</h2>
+                <p>Discover the latest articles on technology, lifestyle, and more.</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="content-container">
+
+                <% for(let i=0; i< titleInputs.length; i++) { %>
+
+                    <article>
+                        <h3>
+                            <%= titleInputs[i] %> 
+                        </h3>
+                        <p>
+                            <% let words = contentInputs[i].split(' '); %>
+                            <% let truncatedContent = words.slice(0, 50).join(' '); %>
+                            <%= truncatedContent %>.....
+                        </p>
+                        <form action="/" method="post">
+                            <button type="submit" name="btn" value="<%=titleInputs[i]%>">Read more</button>
+                        </form>
+                    </article>
+
+                    <% } %>
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <%- include('footer'); -%>
