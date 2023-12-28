@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Contact.css */
+.contact-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  max-width: 300px;
+  margin: 0 auto; /* Add this line to center the contact card */
+  
+}
+
+.contact-card:hover {
+  transform: scale(1.2);
+}
+
+.contact-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.contact-details {
+  padding: 20px;
+}
+
+.contact-name {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info {
+  margin: 5px 0;
+  color: #666;
+}
+
+h1{
+  text-align: center;
+  padding: 30px;
+}
+.whole{
+  padding: 20px;
+}
